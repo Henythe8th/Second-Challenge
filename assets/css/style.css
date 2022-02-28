@@ -70,3 +70,8 @@ footer {
     padding: 25px 30px;
     background-color: orange;
 }
+
+@media(max-width){
+    padding: 120px
+
+}
