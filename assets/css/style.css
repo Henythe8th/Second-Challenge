@@ -64,3 +64,9 @@ img{
 .Other-Projects-div {
     height: 20px 25px;
 }
+
+footer {
+    float: inline-end;
+    padding: 25px 30px;
+    background-color: orange;
+}
