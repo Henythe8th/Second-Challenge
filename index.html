@@ -10,23 +10,35 @@
 </head>
 <body>
 
+    <!--nav bar-->
     <header>
-        <h2>Henry Velasco's Current Portfolio</h2>
-        <div>
+        <h1>
+            <a href="/">
+            Henry Velasco's Current Portfolio
+            </a>
+        </h1>
+
+        <nav>
             <ul>
-                <li>About me </li>
-                <li>Projects </li>
-                <li>Other Projects</li>
+                <li><a href="Home">Home</a></li>
+
+                <li><a href="About">About Me</a></li>
+
+                <li><a href="Projects">Projects</a></li>
+
+                <li><a href="Other-Projects">Other Projects</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
 
     <main>
-        <section>
+        <section id="about">
             <h3>About me</h3>
+            <img src="assets\images\Henry pic 1.jpg">
             <p>Hola my name is Henry. Im 29 years old and from Nashville,TN. Im new to developing and working with html, css, and javascript, but Im excited to learn new skills. On my free time I enjoy watching cartoons, collecting sneakers, playing video games, trying new restaurants, and traveling.</p>
             </section>
-        <section>
+
+        <section id="Projects">
             <h3>Projects</h3>
             <div class="Main-Project">
                 <h4>Project 1</h4>
@@ -39,17 +51,18 @@
                 </div>
                 <h4>Other Projects</h4>
                 <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quia sapiente debitis ipsa ipsum, consectetur, aliquam minus mollitia porro molestias veniam, non cumque dolor quibusdam eos quam modi earum eligendi.</p>
+                <a id=""></a>
             </div>
 
             <div class="Other-Projects-div">
-                <div>
+                <div class="sub-project">
                     <h4>Html Refractor</h4>
                 </div>
 
             </div>
         </section>
 
-        <section>
+        <section div class="Contact">
             <h3>Contact Information</h3>
             <ul>
                 <li>
@@ -59,12 +72,12 @@
                 <a href="https://www.linkedin.com/in/henry-velasco-0a9b0673/">Linkedin</a>
                 </li>
             </ul>
-            <p><a href="mailto:h.velascoghs@gmail.com"> Email works too!!</a></p>
-        </section>
+            <p>Click <a href="mailto:h.velascoghs@gmail.com">here </a> for my email</p>
+        </section div class="Contact">
     </main>
 
     <footer>
-        <p>2nd challenge</p>
+        <p>Have a great day</p>
     </footer>
     
 </body>
