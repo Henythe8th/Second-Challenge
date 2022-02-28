@@ -71,7 +71,8 @@ footer {
     background-color: orange;
 }
 
-@media(max-width){
-    padding: 120px
-
+@media(max-width:1201px and more){
+    .max-width{
+    padding: 120px;
+    }
 }
