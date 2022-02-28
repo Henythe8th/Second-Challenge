@@ -6,7 +6,7 @@
 /*body*/
 body {
     color: black;
-    background-color: whitesmoke;
+    background-color: green;
     font-family:Arial, Helvetica, sans-serif
 }
 
@@ -45,8 +45,22 @@ header nav ul li a {
 }
 /*nav*/
 
-img {
-    resize: 25px 20px;
+.about {
+    font: oblique;
+    font-size: medium;
+    font-size: 30px 0px;
 }
 
+img{
+    height: 400px ;
+    width: 400px ;
+}
 
+.cr{
+    height: 50px 30px;
+    width: 40px 25px;
+}
+
+.Other-Projects-div {
+    height: 20px 25px;
+}
